@@ -15,6 +15,7 @@ import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import {useState} from 'react';
+import resume from '../public/resume.pdf';
 
 
 export default function Home() {
@@ -44,7 +45,7 @@ export default function Home() {
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500
                 text-white px-4 py-2 rounded-md ml-8"
-                  href='../public/CV[9317].pdf' download="Samuel's Resume PDF"
+                  href='../public/resume.pdf' download="Samuel's Resume PDF"
                 >
                   Resume
                 </a>
