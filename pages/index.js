@@ -15,7 +15,6 @@ import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import {useState} from 'react';
-import resume from '../public/resume.pdf';
 
 
 export default function Home() {
