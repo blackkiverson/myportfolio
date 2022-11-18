@@ -168,9 +168,19 @@ export default function Home() {
                 theory.
               </p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-grey-800 py-1">Photoshop</p>
-              <p className="text-grey-800 py-1">Illustrator</p>
-              <p className="text-grey-800 py-1">Figma</p>
+              <p className="text-grey-800 py-1">
+                <a href="https://www.adobe.com/products/photoshop.html">
+                  Photoshop
+                </a>
+              </p>
+              <p className="text-grey-800 py-1">
+                <a href="https://www.adobe.com/products/illustrator.html">
+                  Illustrator
+                </a>
+              </p>
+              <p className="text-grey-800 py-1">
+                <a href="https://www.figma.com/">Figma</a>
+              </p>
             </div>
 
             <div className="text-center mx-auto shadow-lg p-5 rounded-xl my-10 dark:bg-gray-100">
@@ -186,9 +196,15 @@ export default function Home() {
                 issues.
               </p>
               <h4 className="py-4 text-teal-600">Social platforms I use</h4>
-              <p className="text-grey-800 py-1">Google Meet</p>
-              <p className="text-grey-800 py-1">Discord</p>
-              <p className="text-grey-800 py-1">Zoom</p>
+              <p className="text-grey-800 py-1">
+                <a href="https://meet.google.com/">Google Meet</a>
+              </p>
+              <p className="text-grey-800 py-1">
+                <a href="https://discord.com/">Discord</a>
+              </p>
+              <p className="text-grey-800 py-1">
+                <a href="https://www.zoom.us/">Zoom</a>
+              </p>
             </div>
 
             <div className="text-center mx-auto shadow-lg p-5 rounded-xl my-10 dark:bg-gray-100">
@@ -199,9 +215,16 @@ export default function Home() {
                 maintain.
               </p>
               <h4 className="py-4 text-teal-600">Coding languages I use</h4>
-              <p className="text-grey-800 py-1">React Next.js</p>
-              <p className="text-grey-800 py-1">React Native</p>
-              <p className="text-grey-800 py-1">Flutter</p>
+              <p className="text-grey-800 py-1">
+                <a href="https://reactjs.org/">React</a>
+                <a href="https://nextjs.org/"> Next.js</a>
+              </p>
+              <p className="text-grey-800 py-1">
+                <a href="https://reactnative.dev/">React Native</a>
+              </p>
+              <p className="text-grey-800 py-1">
+                <a href="https://flutter.dev/">Flutter</a>
+              </p>
             </div>
           </div>
         </section>
@@ -210,7 +233,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-grey-800 dark:text-gray-400">
-              Since the beginning of my journey aas a freelance developer, I've
+              Since the beginning of my journey as a freelance developer, I've
               done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups</span> and
