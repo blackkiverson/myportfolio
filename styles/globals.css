@@ -23,3 +23,7 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+@font-face {
+  font-family: "funny";
+  src: url("../public/Funny.otf");
+}
