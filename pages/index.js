@@ -333,7 +333,11 @@ export default function Home() {
           {/* Form Starts Here */}
           <form
             ref={formik}
-            onSubmit={sendEmail && formik.handleSubmit}
+            onSubmit={(e)=>{
+              e.preventDefault();
+              sendEmail(e);
+              formik.handleSubmit(e);
+              }}
             className="bg-white flex rounded-lg"
           >
             <div className="flex-1 text-gray-700 p-20">
