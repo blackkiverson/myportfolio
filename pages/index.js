@@ -22,6 +22,7 @@ import * as Yup from "yup";
 import { motion as m } from 'framer-motion';
 import { useRouter } from 'next/router';
 import { ExternalLink } from 'react-external-link';
+import emailjs from '@emailjs/browser';
 
 export default function Home() {
   
@@ -60,7 +61,28 @@ export default function Home() {
       console.log(values);
       router.push({pathname: '/success', query: values});
     },
+
   });
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8i1alcb",
+        "template_18hlneh",
+        formik.current,
+        "8RAp2uW_ajDjzHFCl"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <m.div
@@ -307,8 +329,11 @@ export default function Home() {
           <div className="py-5">
             <hr className="text-black dark:text-white" />
           </div>
+
+          {/* Form Starts Here */}
           <form
-            onSubmit={formik.handleSubmit}
+            ref={formik}
+            onSubmit={sendEmail && formik.handleSubmit}
             className="bg-white flex rounded-lg"
           >
             <div className="flex-1 text-gray-700 p-20">
@@ -419,7 +444,8 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <button className="bg-gradient-to-r from-cyan-500 to-teal-500 py-2 rounded-md w-full text-md">
+                <button className="bg-gradient-to-r from-cyan-500 to-teal-500 py-2 rounded-md w-full text-md"
+                >
                   Send Message
                 </button>
               </div>
