@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.9.1",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "formik": "^2.2.9",
