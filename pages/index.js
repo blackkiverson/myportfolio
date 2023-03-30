@@ -458,8 +458,7 @@ export default function Home() {
               <Image
                 alt="form-teal"
                 src={teal}
-                fill
-                priority
+                
                 className="object-cover rounded-lg"
               />
             </div>
