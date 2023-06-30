@@ -17,12 +17,16 @@
     "next": "13.0.3",
     "particlesjs": "^2.2.3",
     "react": "^18.2.0",
+    "react-animated-cursor": "^2.7.0",
     "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-download-link": "^2.3.0",
     "react-external-link": "^2.0.0",
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.3",
+    "react-simple-typewriter": "^5.0.1",
+    "sharp": "^0.32.0",
+    "typewriter-effect": "^2.20.1",
     "yup": "^0.32.11"
   },
   "devDependencies": {
