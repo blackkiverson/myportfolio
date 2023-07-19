@@ -15,6 +15,10 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import web7 from "../public/web7.jpg";
+import web8 from "../public/web8.jpg";
+import web10 from "../public/web10.jpg";
+import web11 from "../public/web11.jpg";
 import teal from "../public/teal.jpeg";
 import { useState } from 'react';
 import { useFormik } from "formik";
@@ -159,8 +163,12 @@ export default function Home() {
               </h3>
 
               <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400">
-                Freelancer providing services for programming and other needs.
-                Join me down below and let's get cracking!
+                Freelancer providing services for programming and other needs,
+                with{" "}
+                <span className="text-teal-500 font-serif">
+                  3 years of experience!
+                </span>{" "}
+                 Join me down below and let's get cracking!
               </p>
             </div>
             <div className="text-5xl flex justify-center gap-16 py-3 text-grey-300">
@@ -310,6 +318,70 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+              <div className="relative overflow-hidden bg-cover bg-no-repeat basis-1/3 flex-1">
+                <Image
+                  src={web7}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  responsive
+                />
+                <a href="https://github.com/blackkiverson/Twitter">
+                  <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
+                    <p className="text-4xl text-center text-black py-52 font-bold">
+                      Twitter Mobile App Clone
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="relative overflow-hidden bg-cover bg-no-repeat basis-1/3 flex-1">
+                <Image
+                  src={web8}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  responsive
+                />
+                <a href="https://github.com/blackkiverson/Onlyfans">
+                  <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
+                    <p className="text-4xl text-center text-black py-52 font-bold">
+                      Onlyfans Mobile App Clone
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="relative overflow-hidden bg-cover bg-no-repeat basis-1/3 flex-1">
+                <Image
+                  src={web11}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  responsive
+                />
+                <a href="https://github.com/blackkiverson/myportfolio">
+                  <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
+                    <p className="text-4xl text-center text-black py-44 font-bold">
+                      Web Forum
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div className="relative overflow-hidden bg-cover bg-no-repeat basis-1/3 flex-1">
+                <Image
+                  src={web10}
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  responsive
+                />
+                <a href="https://github.com/blackkiverson/myportfolio">
+                  <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
+                    <p className="text-4xl text-center text-black py-52 font-bold">
+                      Portfolio Repository
+                    </p>
+                  </div>
+                </a>
+              </div>
               <div className="basis-1/3 flex-1">
                 <Image
                   src={web1}
