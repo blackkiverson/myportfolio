@@ -168,7 +168,7 @@ export default function Home() {
                 <span className="text-teal-500 font-serif">
                   3 years of experience!
                 </span>{" "}
-                 Join me down below and let's get cracking!
+                Join me down below and let's get cracking!
               </p>
             </div>
             <div className="text-5xl flex justify-center gap-16 py-3 text-grey-300">
@@ -358,7 +358,7 @@ export default function Home() {
                   height={"100%"}
                   responsive
                 />
-                <a href="https://github.com/blackkiverson/myportfolio">
+                <a href="https://github.com/blackkiverson/creative-writes">
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
                     <p className="text-4xl text-center text-black py-44 font-bold">
                       Web Forum
