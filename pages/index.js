@@ -326,7 +326,11 @@ export default function Home() {
                   height={"100%"}
                   responsive
                 />
-                <a href="https://github.com/blackkiverson/Twitter">
+                <a
+                  href="https://github.com/blackkiverson/Twitter"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
                     <p className="text-4xl text-center text-black py-52 font-bold">
                       Twitter Mobile App Clone
@@ -342,7 +346,11 @@ export default function Home() {
                   height={"100%"}
                   responsive
                 />
-                <a href="https://github.com/blackkiverson/Onlyfans">
+                <a
+                  href="https://github.com/blackkiverson/Onlyfans"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
                     <p className="text-4xl text-center text-black py-52 font-bold">
                       Onlyfans Mobile App Clone
@@ -358,7 +366,11 @@ export default function Home() {
                   height={"100%"}
                   responsive
                 />
-                <a href="https://github.com/blackkiverson/creative-writes">
+                <a
+                  href="https://github.com/blackkiverson/creative-writes"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
                     <p className="text-4xl text-center text-black py-44 font-bold">
                       Web Forum
@@ -374,7 +386,11 @@ export default function Home() {
                   height={"100%"}
                   responsive
                 />
-                <a href="https://github.com/blackkiverson/myportfolio">
+                <a
+                  href="https://github.com/blackkiverson/myportfolio"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0 transition duration-300 ease-in-out hover:opacity-70">
                     <p className="text-4xl text-center text-black py-52 font-bold">
                       Portfolio Repository
